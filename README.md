@@ -1,6 +1,7 @@
 Repositório responsável pela relação de tabelas
 
 ```mermaid
+    erDiagram
     USERS }|..|{ TARGETS : has
     CUSTOMER ||--o{ ORDER : places
     CUSTOMER ||--o{ INVOICE : "liable for"
